@@ -26,7 +26,7 @@ async onSubmit(values){
   this.props.history.push('/')
 }
 
-  render(){
+  render(){ 
     const { handleSubmit, pristine, submitting } = this.props
 
     return (
